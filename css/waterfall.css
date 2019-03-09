@@ -1,0 +1,21 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper ul {
+    margin: 0 auto;
+}
+.wrapper ul li {
+    float: left;
+}
+.wrapper ul li .item {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.wrapper ul li img {
+    display: block;
+    width: 230px;
+}
